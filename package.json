@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "dicionotes.easycommit.com",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Victor Martins <victor@easycommit.com>",
   "dependencies": {
     "gatsby": "^2.21.13",
     "gatsby-image": "^2.4.1",
@@ -11,6 +11,7 @@
     "gatsby-plugin-offline": "^3.2.1",
     "gatsby-plugin-react-helmet": "^3.3.1",
     "gatsby-plugin-sharp": "^2.6.1",
+    "gatsby-plugin-webfonts": "^1.1.2",
     "gatsby-source-filesystem": "^2.3.1",
     "gatsby-transformer-sharp": "^2.5.1",
     "prop-types": "^15.7.2",
@@ -22,7 +23,8 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "notes",
+    "dictionary"
   ],
   "license": "MIT",
   "scripts": {
@@ -33,12 +35,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
