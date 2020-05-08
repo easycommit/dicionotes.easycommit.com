@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{IRj2:function(e){e.exports=JSON.parse('{"data":{"site":{"siteMetadata":{"title":"DicioNotes"}}}}')},RXBc:function(e,t,a){"use strict";a.r(t);var n=a("IRj2"),i=a("q1tI"),l=a.n(i),o=a("Bl7J"),r=a("vrFN");t.default=function(){var e=n.data;return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"Home"}),l.a.createElement("h1",null,e.site.siteMetadata.title),l.a.createElement("p",null,"Coming soon"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-c6e1f1f6a65680a7794d.js.map
