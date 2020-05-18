@@ -3,26 +3,29 @@ import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
 import Logo from "../components/logo"
+import Layout from "./layout"
 
 const Page = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <>
-      <SEO title={frontmatter.title} />
+      <Layout>
+        <SEO title={frontmatter.title} />
 
-      <div className="page">
-        <div className="blog-post">
-          <Logo />
+        <div className="page">
+          <div className="blog-post">
+            <Logo />
 
-          <h2>{frontmatter.title}</h2>
+            <h2>{frontmatter.title}</h2>
 
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+            <div
+              className="blog-post-content"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+          </div>
         </div>
-      </div>
+      </Layout>
     </>
   )
 }
