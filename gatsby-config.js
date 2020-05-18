@@ -12,7 +12,12 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/pages/markdown`,
+      },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
